@@ -12,6 +12,10 @@ h1{
     
 }
 
+.top-banner p{
+    text-align: justify;
+}
+
 
 .orange-color{
     color:rgb(238, 78, 15);
@@ -19,6 +23,7 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width{
@@ -40,3 +45,12 @@ section{
     border-radius: 5px;
 }
 
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-big p{
+    text-align: justify;
+    padding-right: 100px;
+}
